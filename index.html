@@ -29,6 +29,15 @@
                 display: block; /* Transforma a imagem em bloco */
                 margin: 200; /* Alinha os lados automaticamente */
             }
+            .container-conto {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+            }
+            .imagem-conto{
+                max-width: 50%;
+                height: auto;
+            }
             
         </style>
     </head>
@@ -49,7 +58,12 @@
                 <h2>A Mulher no Espelho</h2>
         </div>
         
-        <img src="images.jpeg" alt="uma carroça em uma rua escura">  <p> hufehuhe</p>
+        <div class="container-conto">
+            <img src="download.jpeg" alt="Uma mulher no espelho" class="imagem-conto">
+             <div class="texto-conto">
+                <p>seu texto</p>
+             </div>
+        </div>
          
 
     </main>
